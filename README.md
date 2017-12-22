@@ -8,8 +8,14 @@ All the values ​​of the mandelbrot set represented in a reference are called
 ![Image of mandelbrot set repeated](./exercices/q5.png)
 ![Image of mandelbrot with colors](./exercices/q6.png)
 
+Julia set is the same than Mandelbrot set but it takes a complex number on Z0. 
+![Image of julia set](./exercices/julia1.png)
+![Image of julia set](./exercices/julia2.png)
+
+
+
 ## Installation
-Get needed library:
+Get library to draw functions:
 ``` bash
 pip install matplotlib
 ```
@@ -17,13 +23,18 @@ Clone the repo or download zip:
 ``` bash
 git clone https://github.com/clabroche/Mandelbrot-set.git
 ```
- 
+
 ## Usage
 Go to the directory:
 ``` bash
 cd Mandelbrot-set
 ```
-Execute app.py
+Execute mandelbrot.py to draw mandelbrot set
 ``` bash
-python app.py
+python mandelbrot.py
+```
+
+Execute julia.py to draw julia set
+``` bash
+python julia.py
 ```

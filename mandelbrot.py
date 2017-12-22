@@ -102,7 +102,7 @@ def Q4():
     print("     get all points...")
     allPoints = rectangle(-1.5, 0.5, -1, 1, 700)
     # Get all corrdinate that match with mandelbrot
-    print("     create mandelbrot list... (can take a while")
+    print("     create mandelbrot list... (can take a while)")
     listMandelbrot = creerListMandelbrot(allPoints)
     x = listMandelbrot[0] # get x axis from points 
     y = listMandelbrot[1] # get y axis from points
